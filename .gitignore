@@ -1,0 +1,21 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# data / python / node
+*.db
+__pycache__/
+.venv/
+venv/
+node_modules/
+
+# OS / tools
+.DS_Store
+.claude/
+
+# generated outputs
+outputs/
+
+# Office lock files
+~$*
